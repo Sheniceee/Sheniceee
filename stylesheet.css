@@ -1,0 +1,381 @@
+
+ .navbar{
+    display: flex;
+    justify-content: center;
+border-bottom: 1px solid #cccccc;
+padding: 10px;
+}
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color:#666;
+    font-size: 14px;
+    font-weight: bold;
+}
+.hero-section {
+height: 55vh;
+background-size:white;
+background-position: center left;
+position: relative;
+}
+
+    .text-overlay{
+        position: absolute;
+        top: 60%;
+        left:60%;
+        transform: translate(-50%, -50%);
+        text-align: center ;
+        color:grey;
+        padding:20px;
+        border-radius: 10px;
+    }
+    .contact-form-container{
+        background-color: #cccccc;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+        width:100%;
+        max-width:500px;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 24px;
+        color: #333;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        margin-bottom:5px;
+        font-size:16px;
+        color:#333;
+    }
+    input[type="text"], input[type="email"], textarea{
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+    }
+    button{
+        padding: 12px;
+        background-color: #28a745;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        cursor:pointer;
+        transition: background-color 0.3s ease;
+    }
+    button:hover{
+background-color:lightgray;
+    }
+    
+    
+    et_pb_section {
+        background-color: none;
+        padding: 20px;
+    }
+
+    .et_pb_row {
+        display: flex;
+        justify-content: space-between;
+        margin: 10px 0;
+    }
+
+    .et_pb_row {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .et_pb_text {
+        font-size: 16px;
+        color: #333;
+        line-height: 1.5;
+    }
+
+    .et_pb_divider {
+        height: 2px;
+        margin: 20px 0;
+    }
+
+    .et_pb_text_align_left {
+        text-align: left;
+    }
+
+    .et_pb_bg_layout_light {
+        background-color: lightgrey;
+    }
+    .et_pb_section {
+        background-color: #f0f0f0;
+        padding: 30px;
+    }
+
+    
+
+    .et_pb_column {
+        flex: 1 1 100%;
+        padding: 15px;
+    }
+
+    .et_pb_text {
+        font-size: 16px;
+        color: #333;
+        background-color:none;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 5px;
+    }
+
+    .et_pb_divider {
+        height: 2px;
+        margin: 20px 0;
+    }
+
+    .et_pb_text_align_left {
+        text-align: left;
+    }
+    
+
+    .et_pb_bg_layout_light {
+        background-color: none;
+    }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero-content p {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+.projects-section {
+    padding: 50px;
+    text-align: center;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.project-item {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+.project-item img {
+    width: 230PX;
+    height: 200PX;
+    border-radius: 5px;
+}
+
+.project-item h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.project-item p {
+    font-size: 1em;
+    color: #666;
+}
+   
+
+/* Basic styles for the page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+
+.program {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.program-image img {
+    max-width: 220px;
+    border-radius: 8px;
+}
+
+.program-info {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.program-info h2 {
+    margin-top: 0;
+    color: #3ca374;
+}
+
+.program-info p {
+    margin: 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: lightgray;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color:lightgray;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+/* General page styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    background-color: lightgreen;
+    color: white;
+    padding: 50px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* News Section Styles */
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 40px 20px;
+}
+
+/* Each news item */
+.news-item {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 40px;
+    width: 300px;
+}
+
+.news-item img {
+    width: 100%;
+    height: auto;
+}
+
+.news-content {
+    padding: 20px;
+}
+
+.news-content h2 {
+    font-size: 1.5em;
+    color: #3ca374;
+    margin: 0 0 10px;
+}
+
+.news-content p {
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #3ca374;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #2a8b60;
+}
+
+/* Footer styles */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
